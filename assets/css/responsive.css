@@ -1,0 +1,495 @@
+/* @media (max-width : 1250px) {
+    
+} */
+
+@media (max-width : 1024px) {
+    .headingH1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+
+    .mainBtn {
+        margin-top: 40px;
+    }
+
+    .bannerMainRow {
+        gap: 20px;
+    }
+
+    .bannerMain {
+        padding-top: 140px;
+    }
+
+    .mainBtn a,
+    .mainBtn button {
+        padding: 14px 24px;
+    }
+
+    .qualityIconList {
+        padding-top: 40px;
+    }
+
+    .qaulityIconListHldr h3 {
+        font-size: 16px;
+    }
+
+    .qaulityIconListHldr img {
+        width: 25px;
+    }
+
+    .imageWithContent {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .imageWihtContentRow {
+        gap: 20px;
+    }
+
+    .imgWithCntImg {
+        padding: 20px;
+    }
+
+    .headingH2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .imgWithCntCnt :is(p, li) {
+        margin-top: 15px;
+    }
+
+    .imgWithCntCnt h3 {
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 30px;
+    }
+
+    .bannerMainCnt {
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .qaulityIconListHldr::before {
+        left: -20px;
+    }
+
+    .nutrientIconBox {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .headingHldr {
+        margin-bottom: 40px;
+    }
+
+    .nutrientIconBoxRow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nutrientIconBoxHldr {
+        padding: 50px 15px;
+    }
+
+    .nutrientIconBoxHldr img {
+        width: 50px;
+    }
+
+    .nutrientIconBoxHldr h3 {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    .nutrientIconBoxHldr p {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .standardsTestingRow {
+        gap: 20px;
+        padding-top: 80px;
+    }
+
+    .standardsCnt {
+        padding-bottom: 80px;
+    }
+
+    .backgWithCnt {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .bgWithCntRow .headingH2 {
+        margin-bottom: 15px;
+    }
+
+    .bgWithCntBgHldr::after {
+        height: 400px;
+        width: 400px;
+        bottom: -230px;
+        left: -160px;
+    }
+
+    .standardsTesting {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+
+    .footLinksHldr ul li a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .footLinksHldr ul {
+        margin-top: 20px;
+        gap: 15px;
+    }
+
+    .footerMainTop {
+        padding-top: 50px;
+    }
+
+    .footerMainBottom {
+        padding-top: 40px;
+    }
+
+    .footLinksHldr h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width : 768px) {
+    .bannerMainRow {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bannerMainCnt {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        max-width: 600px;
+    }
+
+    .bannerMainImg img {
+        width: 100%;
+        height: 450px;
+    }
+
+    .bannerMainImg::before {
+        height: 85%;
+    }
+
+    .quaIconListRow {
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .qaulityIconListHldr {
+        width: 43%;
+    }
+
+    .qaulityIconListHldr::before {
+        left: -50px;
+    }
+
+    .imageWithContent {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .headingH1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .headingH2 {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .imageWihtContentRow {
+        gap: 30px;
+        grid-template-columns: 1fr;
+    }
+
+    .imgWithCntImg {
+        max-width: 500px;
+    }
+
+    .imgWithCntCnt {
+        max-width: 500px;
+    }
+
+    .nutrientIconBox {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .nutrientIconBox .headingHldr .headingH2 {
+        max-width: 460px;
+    }
+
+    .standardsTesting {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .standardsTestingRow {
+        padding-top: 60px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .standardsCnt {
+        padding-bottom: 30px;
+    }
+
+    .standardsImg {
+        height: 450px;
+    }
+
+    .backgWithCnt {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    .bgWithCntRow .headingH2 {
+        margin-bottom: 15px;
+        max-width: 500px;
+    }
+
+    .bgWithCntBgHldr::after {
+        height: 300px;
+        width: 300px;
+        bottom: -180px;
+        left: -120px;
+    }
+
+    .footerMainTopRow {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 40px;
+    }
+}
+
+@media (max-width : 575px) {
+    .bannerMain {
+        padding-top: 100px;
+    }
+
+    .headingH1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .bannerMainCnt p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .mainBtn {
+        margin-top: 30px;
+    }
+
+    .mainBtn a,
+    .mainBtn button {
+        padding: 12px 20px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .bannerMainCnt {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .bannerMainImg img {
+        height: 330px;
+    }
+
+    .bannerMainImg::before {
+        height: 100%;
+        width: 70%;
+        left: 0px;
+    }
+
+    .qualityIconList {
+        padding-top: 30px;
+    }
+
+    .qaulityIconListHldr {
+        width: 100%;
+    }
+
+    .quaIconListRow {
+        gap: 20px;
+    }
+
+    .qaulityIconListHldr img {
+        width: 20px;
+    }
+
+    .qaulityIconListHldr h3 {
+        font-size: 14px;
+    }
+
+    .qaulityIconListHldr::before {
+        left: unset;
+        bottom: 0px;
+        height: 1px;
+        width: 100%;
+    }
+
+    .qaulityIconListHldr:not(:first-child) {
+        padding-top: 20px;
+    }
+
+    .imageWithContent {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .imgWithCntImg {
+        padding: 12px;
+        border-radius: 15px;
+    }
+
+    .headingH2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .imageWihtContentRow {
+        gap: 25px;
+    }
+
+    .imgWithCntCnt :is(p, li) {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .imgWithCntCnt h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 20px;
+    }
+
+    .nutrientIconBox {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .headingHldr p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .headingHldr {
+        margin-bottom: 30px;
+    }
+
+    .nutrientIconBoxRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .nutrientIconBoxHldr {
+        padding: 30px 10px;
+    }
+
+    .nutrientIconBoxHldr img {
+        width: 40px;
+    }
+
+    .nutrientIconBoxHldr h3 {
+        font-size: 16px;
+        margin-top: 25px;
+    }
+
+    .nutrientIconBoxHldr p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .btmTextSec {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+
+    .standardsTestingRow {
+        padding-top: 40px;
+    }
+
+    .standardsCnt p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .standardsCnt .headingH2 {
+        margin-bottom: 15px;
+    }
+
+    .standardsImg {
+        height: 250px;
+    }
+
+    .standardsTesting {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .bgWithCntBgHldr {
+        padding-top: 40px;
+        padding-bottom: 60px;
+        border-radius: 15px;
+    }
+
+    .bgWithCntRow p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    .bgWithCntBgHldr::after {
+        height: 150px;
+        width: 150px;
+        bottom: -80px;
+        left: -60px;
+    }
+
+    .footerMainTop {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .footerMainTopRow {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .footLinksHldr h3 {
+        font-size: 16px;
+    }
+
+    .footLinksHldr ul {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .footLinksHldr ul li a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footerMainBottom {
+        padding-top: 30px;
+    }
+
+    .ftBtmText p {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 15px;
+    }
+}
